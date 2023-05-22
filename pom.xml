@@ -38,6 +38,36 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.glavo.hmcl.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>19-ea+10-loongson64</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glavo.hmcl.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>19-ea+10-loongson64</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glavo.hmcl.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>19-ea+10-loongson64</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glavo.hmcl.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>19-ea+10-loongson64</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glavo.hmcl.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>19-ea+10-loongson64</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glavo.hmcl.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>19-ea+10-loongson64</version>
+        </dependency>
     </dependencies>
 
     <build>

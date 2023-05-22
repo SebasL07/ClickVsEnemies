@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.clickvsenemies.MessageController">
+   <children>
+      <ImageView fx:id="imageField" fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+         <HBox.margin>
+            <Insets right="50.0" top="55.0" />
+         </HBox.margin></ImageView>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="140.0">
+         <children>
+            <Label text="You fought well">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label text="Here take your prize">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Hyperlink fx:id="link" text="prize" />
+         </children></VBox>
+   </children>
+</HBox>

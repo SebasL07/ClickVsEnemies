@@ -5,4 +5,6 @@ module com.example.clickvsenemies {
 
     opens com.example.clickvsenemies to javafx.fxml;
     exports com.example.clickvsenemies;
+    exports com.example.clickvsenemies.model;
+    opens com.example.clickvsenemies.model to javafx.fxml;
 }
